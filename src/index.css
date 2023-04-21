@@ -1,0 +1,73 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+}
+
+.center{
+  display: flex;
+  position: absolute;
+}
+
+img{
+  width:5vw;
+  height: 5vh;
+  margin: -10px;
+}
+
+h1{
+  margin: -10px;
+}
+
+.arrow{
+  opacity: 0;
+  transition: all 2s;
+  position: relative;
+  top:0px;
+  bottom:0;
+  right: 0px;
+  left:0px;
+}
+
+.arrowUp{
+  opacity: 1;
+  transition: all 2s;
+  position: relative;
+  bottom: 20px;
+}
+
+.arrowRight{
+  opacity: 1;
+  transition: all 2s;
+  position: relative;
+  left:30px;
+}
+
+.arrowDown{
+  opacity: 1;
+  transition: all 2s;
+  position: relative;
+  top:40px;
+}
+
+.arrowLeft{
+  opacity: 1;
+  transition: all 2s;
+  position: relative;
+  right:20px;
+}
